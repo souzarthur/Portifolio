@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    overflow: auto;
+}
+a{
+    color:#00AAA0;
+}
+body{
+    background: linear-gradient(180deg, rgba(70,32,102,1) 0%, rgba(0,0,0,1) 103%);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+/*Nav*/
+.nav{
+    font: oblique bold 17px 'Courier New';
+}
+.img-logo{
+    height: 40px;
+    width: 213px;
+    display: block;
+    background: url('/styles/git.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+.navbar-header>button{
+	border: none;
+}
+.navbar-brand{
+	padding: 5px 15px;
+}
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #9bf0e1;
+	background: none;
+}
