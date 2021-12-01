@@ -28,7 +28,7 @@ body{
     height: 40px;
     width: 213px;
     display: block;
-    background: url('/styles/git.svg') no-repeat;
+    background: url('/styles/img/git.svg') no-repeat;
     background-size: contain;
     color: transparent;
 }
