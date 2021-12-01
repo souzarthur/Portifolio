@@ -1,3 +1,6 @@
+*{
+    text-align: justify;
+}
 html, body{
     height: 100%;
     overflow: auto;
@@ -5,8 +8,11 @@ html, body{
 a{
     color:#00AAA0;
 }
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p, li{
     color: #8ED2C9;
+}
+h1{
+    margin-bottom: 30px;
 }
 body{
     background: linear-gradient(180deg, rgba(70,32,102,1) 0%, rgba(0,0,0,1) 103%);
@@ -51,13 +57,18 @@ nav.navbar-transparente{
 	color: #9bf0e1;
 	background: none;
 }
-#sobre, #experiencia{
-    padding: 15% 28%;
+#sobre, #experiencia,#universidade, #projetos, #contato, #cursos{
+    padding: 15% 26%;
 }
 #fotoPerfil{
     width: 200px;
     padding-left: 0px;
 }
+#fotoUfpel{
+    width: 250px;
+    padding-left: 0px;
+}
+
 #sobre{
     padding-bottom: 30px;
 }
