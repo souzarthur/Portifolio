@@ -5,7 +5,7 @@ html, body{
 a{
     color:#00AAA0;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,p{
     color: #8ED2C9;
 }
 body{
@@ -41,13 +41,26 @@ nav.navbar-transparente{
 .divisor{
 	width: 1px;
 	height: 16px;
-	background: white;
+	background: #FCF4D9;
 	margin: 16px 10px;
 }
 .navbar-inverse .navbar-nav>li>a, footer .nav a{
-	color: white;
+	color: #FCF4D9;
 }
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
 	color: #9bf0e1;
 	background: none;
+}
+#sobre, #experiencia{
+    padding: 15% 28%;
+}
+#fotoPerfil{
+    width: 200px;
+    padding-left: 0px;
+}
+#sobre{
+    padding-bottom: 30px;
+}
+img{
+    border-radius: 30%;
 }
